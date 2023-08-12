@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    margin-left:20px;
+   
+}
+body
+{
+    justify-content: space-between;
+    background-image:url('file:///C:/Users/Anitesh%20Kumar/OneDrive/Desktop/content_management_tool/Images/phone-86.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ 
+}
+content{
+    padding: 10px;
+}
+input {
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+
+}
+button{
+    background:linear-gradient(#ef2f2fe5,#3859dec7);
+    color: white;
+    padding: 11px;
+    font-family: 'Poppins',sans-serif;
+    width:110px;
+    margin-left:60px;
+   
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div text-align ="center"><br>
+        <h1 style="color: brown;">Content Management Tool</h1><br><br><br>
+        
+            <div >
+                <b><label class="font-color" for="title" > Tool Name:</label></b> 
+                <input class="input font-color " type="text" id="title" placeholder="Enter Tool Name Here"> <br/><br>
+                <b><label class="font-color" for="content">Tool Description:</label></b> 
+                <input  class="input font-color" id="content" placeholder="Enter Tool Description Here"/>
+            </div><br><br>
+    
+            <div>
+                <b><label class="label-section font-color " for="image" >Upload image here:</label></b>
+                <input style="color: rgb(0, 0, 0);" type="file" id="image" accept="image/*">
+            </div><br>
+    
+            <div text-align="center">
+                <b><label class="label-section font-color" for="video" >Upload video here:</label></b>
+                <input style="color:rgb(0, 0, 0);" type="file" id="video" accept="video/*">
+            </div>
+        <br><br><br>
+    
+        <div class="button-section">
+            <button onclick="submitForm()">Submit</button>
+        </div>
+    
+        <div class="data-container">
+            <div class="data-section" id="dataSection">
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"type="text/javascript"></script>
+</body>
+</html>
